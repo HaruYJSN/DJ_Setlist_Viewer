@@ -1,6 +1,7 @@
 i=1
 now=1
 last=10
+import os
 import sqlite3
 filepath="test.sqlite"
 conn=sqlite3.connect(filepath)
@@ -95,7 +96,7 @@ def button3_click():
 
 def button4_click():
     global now
-    sethyouji
+    os.system("python .\Setlist_Viewer.py")
     
 
 def button5_click():
